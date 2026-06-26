@@ -55,14 +55,6 @@ _Generated 2026-06-26 from public GitHub repositories._
 - [lox-go](https://github.com/arunshar/lox-go) — Lox Programming Language in Go
 - [lox-rust](https://github.com/arunshar/lox-rust) — Lox Programming Language in Rust
 
-## Deep-learning implementations
-
-- [CLIP](https://github.com/arunshar/CLIP) — Multimodal  _( Jupyter Notebook )_
-- [ViT](https://github.com/arunshar/ViT) — Initial Running Code  _( Jupyter Notebook · ⭐ 1 )_
-- [Diffusion](https://github.com/arunshar/Diffusion) — Diffusion-model implementation.  _( Jupyter Notebook )_
-- [Llama_RAG](https://github.com/arunshar/Llama_RAG) — Retrieval-augmented generation with Llama.  _( Python )_
-- [RAGPytorch](https://github.com/arunshar/RAGPytorch) — RAG in PyTorch.  _( Jupyter Notebook · ⭐ 1 )_
-
 ## Teaching & Claude Code
 
 - [claude-code-course](https://github.com/arunshar/claude-code-course) — Self-paced two-day course on advanced Claude Code: agentic loop, context engineering, skills, MCP, hooks, worktrees, internals, five pillars  _( HTML )_

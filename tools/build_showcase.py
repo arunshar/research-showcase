@@ -67,13 +67,6 @@ THEMES = [
         ("lox-go", "Lox programming language in Go."),
         ("lox-rust", "Lox programming language in Rust."),
     ]),
-    ("Deep-learning implementations", [
-        ("CLIP", "Multimodal CLIP implementation."),
-        ("ViT", "Vision Transformer implementation."),
-        ("Diffusion", "Diffusion-model implementation."),
-        ("Llama_RAG", "Retrieval-augmented generation with Llama."),
-        ("RAGPytorch", "RAG in PyTorch."),
-    ]),
     ("Teaching & Claude Code", [
         ("claude-code-course", "Self-paced two-day course on advanced Claude Code."),
     ]),
