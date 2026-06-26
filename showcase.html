@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arun Sharma — Research & Code</title>
+<style>
+:root{--bg:#0f1115;--panel:#161922;--ink:#e6e8ee;--mut:#9aa3b2;--line:#252a36;--acc:#6ea8fe}
+@media(prefers-color-scheme:light){:root{--bg:#f6f7f9;--panel:#fff;--ink:#1b1f27;--mut:#5b6472;--line:#e4e7ec;--acc:#2563eb}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--acc);text-decoration:none}
+.wrap{display:flex;min-height:100vh}
+.side{width:280px;flex:0 0 280px;background:var(--panel);border-right:1px solid var(--line);
+position:sticky;top:0;height:100vh;overflow:auto;padding:20px 14px}
+.side h1{font-size:16px;margin:0 0 2px}.side .sub{color:var(--mut);font-size:12px;margin-bottom:14px}
+.navitem{display:flex;gap:8px;padding:6px 8px;border-radius:8px;color:var(--ink);font-size:13px}
+.navitem:hover{background:var(--bg)}.navitem .cnt{margin-left:auto;color:var(--mut)}
+.main{flex:1;padding:30px 34px;max-width:1100px}
+.lead{font-size:15px;color:var(--mut);margin:0 0 14px;max-width:70ch}
+.live{margin:0 0 22px}.livechip{display:inline-block;background:var(--panel);border:1px solid var(--line);
+border-radius:20px;padding:4px 12px;margin:3px;font-size:13px}
+section{margin:26px 0;border-top:1px solid var(--line);padding-top:10px}
+section h2{font-size:17px;margin:6px 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;
+padding:13px 15px;color:var(--ink)}
+.card:hover{border-color:var(--acc)}
+.card .name{font-weight:700;color:var(--acc)}
+.card .desc{font-size:13px;color:var(--mut);margin:5px 0 8px}
+.card .meta{font-size:11px;color:var(--mut)}
+@media(max-width:780px){.wrap{flex-direction:column}.side{width:100%;height:auto;position:static}.main{padding:18px}}
+</style></head>
+<body><div class="wrap">
+<aside class="side"><h1>Arun Sharma</h1><div class="sub">Research &amp; Code · 2026-06-26</div>
+<nav><a href="#t-phd-thesis-distortion-aware-spatial-ai" class="navitem">PhD thesis: distortion-aware spatial AI<span class="cnt">6</span></a>
+<a href="#t-spatial-trajectory-ml" class="navitem">Spatial &amp; trajectory ML<span class="cnt">7</span></a>
+<a href="#t-3d-vision-remote-sensing" class="navitem">3D vision &amp; remote sensing<span class="cnt">3</span></a>
+<a href="#t-physics-informed-generative-ml" class="navitem">Physics-informed &amp; generative ML<span class="cnt">4</span></a>
+<a href="#t-agents-systems-infrastructure" class="navitem">Agents, systems &amp; infrastructure<span class="cnt">5</span></a>
+<a href="#t-languages-fundamentals" class="navitem">Languages &amp; fundamentals<span class="cnt">2</span></a>
+<a href="#t-deep-learning-implementations" class="navitem">Deep-learning implementations<span class="cnt">5</span></a>
+<a href="#t-teaching-claude-code" class="navitem">Teaching &amp; Claude Code<span class="cnt">1</span></a>
+<a href="#t-portfolio-web" class="navitem">Portfolio &amp; web<span class="cnt">2</span></a></nav></aside>
+<main class="main">
+<h1 style="font-size:22px;margin:0 0 8px">Research &amp; Code</h1>
+<p class="lead">Spatial data science, GeoAI, and trustworthy / physics-informed machine learning. Curated public repositories and live sites.</p>
+<div class="live"><a class="livechip" href="https://arunshar.com/" target="_blank" rel="noopener">https://arunshar.com/</a><a class="livechip" href="https://arunshar.com/portfolio" target="_blank" rel="noopener">https://arunshar.com/portfolio</a><a class="livechip" href="https://arunshar.com/pcrf-keynote/" target="_blank" rel="noopener">https://arunshar.com/pcrf-keynote/</a></div>
+<section id="t-phd-thesis-distortion-aware-spatial-ai"><h2>PhD thesis: distortion-aware spatial AI</h2><div class="grid">
+<a class="card" href="https://github.com/arunshar/Thesis-Final" target="_blank" rel="noopener"><div class="name">Thesis-Final</div><div class="desc">Distortion-Aware Spatial Data Science</div><div class="meta">TeX</div></a>
+<a class="card" href="https://github.com/arunshar/stagd-trajectory-gap" target="_blank" rel="noopener"><div class="name">stagd-trajectory-gap</div><div class="desc">Space-time prism + Abnormal Gap Measure. numpy reference implementation of the ACM TIST 2024 paper (DOI 10.1145/3673235).</div><div class="meta">Python</div></a>
+<a class="card" href="https://github.com/arunshar/tgard-rendezvous" target="_blank" rel="noopener"><div class="name">tgard-rendezvous</div><div class="desc">TGARD reachable-set intersection for possible-rendezvous areas. numpy reference implementation of the ACM SIGSPATIAL 2022 paper (DOI 10.1145/3557915.3561033).</div><div class="meta">Python</div></a>
+<a class="card" href="https://github.com/arunshar/tss-rendezvous-region" target="_blank" rel="noopener"><div class="name">tss-rendezvous-region</div><div class="desc">Space-time-prism intersection for rendezvous regions. numpy reference implementation of the ACM TIST 2023 paper (DOI 10.1145/3467977).</div><div class="meta">Python</div></a>
+<a class="card" href="https://github.com/arunshar/AbnormalGapMeasure" target="_blank" rel="noopener"><div class="name">AbnormalGapMeasure</div><div class="desc">Abnormal trajectory-gap detection.</div><div class="meta">Jupyter Notebook</div></a>
+<a class="card" href="https://github.com/arunshar/RendezvousDetection" target="_blank" rel="noopener"><div class="name">RendezvousDetection</div><div class="desc">Initial Commit</div><div class="meta">Java</div></a>
+</div></section>
+<section id="t-spatial-trajectory-ml"><h2>Spatial &amp; trajectory ML</h2><div class="grid">
+<a class="card" href="https://github.com/arunshar/geotrace-agent" target="_blank" rel="noopener"><div class="name">geotrace-agent</div><div class="desc">Spatiotemporal reasoning agent with space-time prism geometry</div><div class="meta">Python</div></a>
+<a class="card" href="https://github.com/arunshar/darkvessel-stack" target="_blank" rel="noopener"><div class="name">darkvessel-stack</div><div class="desc">Dark-vessel / remote-sensing detection stack.</div><div class="meta">Python · ★ 2</div></a>
+<a class="card" href="https://github.com/arunshar/mapfix-spatial" target="_blank" rel="noopener"><div class="name">mapfix-spatial</div><div class="desc">Distortion-Aware MapFix interactive geospatial correction MVP</div><div class="meta">TeX</div></a>
+<a class="card" href="https://github.com/arunshar/pin-service" target="_blank" rel="noopener"><div class="name">pin-service</div><div class="desc">Production-grade gRPC microservice for autonomous-vehicle PUDO pin selection. H3 + HD-map + ML scoring + congestion control + OTel + Prometheus.</div><div class="meta">TeX</div></a>
+<a class="card" href="https://github.com/arunshar/trajprompt" target="_blank" rel="noopener"><div class="name">trajprompt</div><div class="desc">Trajectory prompting / representation.</div><div class="meta">TeX</div></a>
+<a class="card" href="https://github.com/arunshar/stdm-survey-toolkit" target="_blank" rel="noopener"><div class="name">stdm-survey-toolkit</div><div class="desc">Moran&#x27;s I + spatial outlier detection. numpy reference accompanying the Spatiotemporal Data Mining survey (arXiv 2206.12753).</div><div class="meta">Python</div></a>
+<a class="card" href="https://github.com/arunshar/webglobe-raster" target="_blank" rel="noopener"><div class="name">webglobe-raster</div><div class="desc">Tiled map-reduce raster aggregation. numpy reference implementation of the ACM SIGSPATIAL BIGSPATIAL 2018 WebGlobe paper (DOI 10.1145/3282834.3282835).</div><div class="meta">Python</div></a>
+</div></section>
+<section id="t-3d-vision-remote-sensing"><h2>3D vision &amp; remote sensing</h2><div class="grid">
+<a class="card" href="https://github.com/arunshar/sat-splat-distort" target="_blank" rel="noopener"><div class="name">sat-splat-distort</div><div class="desc">Satellite Gaussian-splat / distortion experiments.</div><div class="meta">TeX</div></a>
+<a class="card" href="https://github.com/arunshar/geosam-3d" target="_blank" rel="noopener"><div class="name">geosam-3d</div><div class="desc">Geospatial SAM in 3D.</div><div class="meta">TeX</div></a>
+<a class="card" href="https://github.com/arunshar/physflow-earth" target="_blank" rel="noopener"><div class="name">physflow-earth</div><div class="desc">Physics-flow modeling for Earth data.</div><div class="meta">Python</div></a>
+</div></section>
+<section id="t-physics-informed-generative-ml"><h2>Physics-informed &amp; generative ML</h2><div class="grid">
+<a class="card" href="https://github.com/arunshar/pi-grpo" target="_blank" rel="noopener"><div class="name">pi-grpo</div><div class="desc">Physics-informed PPO, DPO, and GRPO trajectory reward stack</div><div class="meta">Python</div></a>
+<a class="card" href="https://github.com/arunshar/Kriging-Diffusion" target="_blank" rel="noopener"><div class="name">Kriging-Diffusion</div><div class="desc">Kriging-informed diffusion for spatial downscaling.</div><div class="meta"></div></a>
+<a class="card" href="https://github.com/arunshar/Physics-Informed-Diffusion-Probabilistic-Model" target="_blank" rel="noopener"><div class="name">Physics-Informed-Diffusion-Probabilistic-Model</div><div class="desc">Physics-informed diffusion probabilistic model (KDD 2025 track).</div><div class="meta">Python · ★ 2</div></a>
+<a class="card" href="https://github.com/arunshar/pcrf-keynote" target="_blank" rel="noopener"><div class="name">pcrf-keynote</div><div class="desc">Physics-Constrained Rectified Flow keynote deck (Ray / PyTorch Summit).</div><div class="meta">HTML</div></a>
+</div></section>
+<section id="t-agents-systems-infrastructure"><h2>Agents, systems &amp; infrastructure</h2><div class="grid">
+<a class="card" href="https://github.com/arunshar/atria" target="_blank" rel="noopener"><div class="name">atria</div><div class="desc">Production-grade primitives for AI agents on Temporal: durable HITL, constraint-aware retry, replay-safe streaming.</div><div class="meta">Python</div></a>
+<a class="card" href="https://github.com/arunshar/slurm-dag" target="_blank" rel="noopener"><div class="name">slurm-dag</div><div class="desc">Content-addressed dependency DAGs over Slurm: fan-out/merge job pipelines with reuse, single-writer leases, NFS-safe atomic publish, and a live marker-based monitor. Works on any Slurm cluster.</div><div class="meta">Python</div></a>
+<a class="card" href="https://github.com/arunshar/recce" target="_blank" rel="noopener"><div class="name">recce</div><div class="desc">AI location scouting, from script to shoot day. Gemini-powered. Built for the GDG Stanford Hackathon.</div><div class="meta">Python</div></a>
+<a class="card" href="https://github.com/arunshar/spatial-atlas" target="_blank" rel="noopener"><div class="name">spatial-atlas</div><div class="desc">Spatial-aware research agent for AgentBeats Challenge</div><div class="meta">Python</div></a>
+<a class="card" href="https://github.com/arunshar/researchbench-leaderboard" target="_blank" rel="noopener"><div class="name">researchbench-leaderboard</div><div class="desc">Leaderboard for ResearchToolBench benchmark</div><div class="meta">Python</div></a>
+</div></section>
+<section id="t-languages-fundamentals"><h2>Languages &amp; fundamentals</h2><div class="grid">
+<a class="card" href="https://github.com/arunshar/lox-go" target="_blank" rel="noopener"><div class="name">lox-go</div><div class="desc">Lox Programming Language in Go</div><div class="meta"></div></a>
+<a class="card" href="https://github.com/arunshar/lox-rust" target="_blank" rel="noopener"><div class="name">lox-rust</div><div class="desc">Lox Programming Language in Rust</div><div class="meta"></div></a>
+</div></section>
+<section id="t-deep-learning-implementations"><h2>Deep-learning implementations</h2><div class="grid">
+<a class="card" href="https://github.com/arunshar/CLIP" target="_blank" rel="noopener"><div class="name">CLIP</div><div class="desc">Multimodal</div><div class="meta">Jupyter Notebook</div></a>
+<a class="card" href="https://github.com/arunshar/ViT" target="_blank" rel="noopener"><div class="name">ViT</div><div class="desc">Initial Running Code</div><div class="meta">Jupyter Notebook · ★ 1</div></a>
+<a class="card" href="https://github.com/arunshar/Diffusion" target="_blank" rel="noopener"><div class="name">Diffusion</div><div class="desc">Diffusion-model implementation.</div><div class="meta">Jupyter Notebook</div></a>
+<a class="card" href="https://github.com/arunshar/Llama_RAG" target="_blank" rel="noopener"><div class="name">Llama_RAG</div><div class="desc">Retrieval-augmented generation with Llama.</div><div class="meta">Python</div></a>
+<a class="card" href="https://github.com/arunshar/RAGPytorch" target="_blank" rel="noopener"><div class="name">RAGPytorch</div><div class="desc">RAG in PyTorch.</div><div class="meta">Jupyter Notebook · ★ 1</div></a>
+</div></section>
+<section id="t-teaching-claude-code"><h2>Teaching &amp; Claude Code</h2><div class="grid">
+<a class="card" href="https://github.com/arunshar/claude-code-course" target="_blank" rel="noopener"><div class="name">claude-code-course</div><div class="desc">Self-paced two-day course on advanced Claude Code: agentic loop, context engineering, skills, MCP, hooks, worktrees, internals, five pillars</div><div class="meta">HTML</div></a>
+</div></section>
+<section id="t-portfolio-web"><h2>Portfolio &amp; web</h2><div class="grid">
+<a class="card" href="https://github.com/arunshar/portfolio" target="_blank" rel="noopener"><div class="name">portfolio</div><div class="desc">Academic portfolio site (per-project paper pages + publications).</div><div class="meta">HTML</div></a>
+<a class="card" href="https://github.com/arunshar/arunshar.github.io" target="_blank" rel="noopener"><div class="name">arunshar.github.io</div><div class="desc">Arun Sharma - academic portfolio (root mirror of arunshar/portfolio)</div><div class="meta">HTML</div></a>
+</div></section>
+<p style="color:var(--mut);font-size:12.5px;margin-top:26px">Profile: <a href="https://github.com/arunshar" target="_blank" rel="noopener">github.com/arunshar</a></p>
+</main></div></body></html>
